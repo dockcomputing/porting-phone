@@ -1,0 +1,30 @@
+
+.text-input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+    gap: 4px;
+}
+
+.text-input-label {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.text-input {
+    box-sizing: border-box;
+    border: 1px solid #222222;
+    padding: 8px 10px 7px;
+    border-radius: 2px;
+}
+
+.text-input-error-message {
+    color: red
+}
+
+.input-required-marker { 
+    color: #D9328A;
+    position: relative;
+    top: 0px;
+}

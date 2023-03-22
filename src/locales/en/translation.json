@@ -1,0 +1,140 @@
+{
+    "congrats_new_phone" : "Congratulations on your new phone!",
+    "form_subheader_1" : "Your phone will arrive ready to use with a new number.",
+    "form_subheader_2": "In the meantime, we'll get started on transferring your number over so you can use it with your new phone.",
+    "form_fields": {
+        "password": {
+            "label": "Password",
+            "placeholder": "Enter your PIN / Password here ...",
+            "error": "Password cannot be empty"
+        },
+        "phone_number": {
+            "label": "Phone Number",
+            "placeholder": "Enter the phone number here ...",
+            "error": "Phone number is invalid, please enter at least 10 digits"
+        },
+        "billing_address": {
+            "label": "Billing Address",
+            "placeholder": "Enter your billing address here ...",
+            "error": "Billing Address cannot be empty"
+        },
+        "account_number": {
+            "label": "Account Number",
+            "placeholder": "Enter your account number here ...",
+            "error": "Account Number cannot be empty"
+        },
+        "disclaimer" : {
+            "title": "Note:",
+            "content": "This is NOT the password you use to login to their website. If you are unsure if you have this, please contact your carrier"
+        },
+        "submit": {
+            "value": "Submit",
+            "error": "There has been an error while trying to submit the request"
+        },
+        "request_submitted": {
+            "ok": "Porting request submitted",
+            "ko": "Issues encountered in porting. Need to contact customer service."
+        }
+    },
+    "setup_line": {
+        "header" : "Setting up your line of service",
+        "status_title" : "Line of service setup is",
+        "status_completed" : "Completed",
+        "status_incomplete" : "Not Complete",
+        "continue_button": "Continue"
+    },
+    "activation_complete": {
+        "header" : "Your device was successfully activated",
+        "title": "You may now turn on your device",
+        "activation_text": "Watch our short video to learn how to turn on your Jitterbug Smart2 and get it set up so you can start making calls",
+        "activation_line_title": "Now, get smarter about your smartphone with educational tools",
+        "educational_card_1_title": "Learning Center",
+        "educational_card_1_text": "Informative how-to cards and videos covering basic to advanced features",
+        "educational_card_2_title": "Product Support",
+        "educational_card_2_text": "User guides and helpful FAQs for your GreatCall product",
+        "educational_card_3_title": "Manage Your Account",
+        "educational_card_3_text": "At mygreatcall.com you can access and manage your account information",
+        "educational_card_button_text": "Explore"
+    },
+    "transfer_phone" : {
+        "title": "Transfer your phone number to your new Lively Phone",
+        "subtitle": "Information about your previous service carrier",
+        "required": "Required",
+        "enterPhone": "Enter the 10-digit phone number you want to transfer",
+        "checkEligibility": "Check Eligibility",
+        "isEligibleYes": "Yes!",
+        "isEligibleText": "Your phone number can be transferred",
+        "selectCarrier": "Please select your carrier",
+        "selectCarrierPlaceholder": "Select provider",
+        "primaryAccountHolderTitle": "Are you the primary account holder?",
+        "primaryAccountHolderYes": "Yes",
+        "primaryAccountHolderNo": "No",
+        "phoneFormDisclaimer" : {
+            "title": "You will need the following to proceed",
+            "firstItemTitle": "1. A recent phone bill from your carrier",
+            "firstItemText": "You'll need to enter the information exactly as it appears in your bill",
+            "secondItemTitle": "2. An Account Transfer PIN from your carrier",
+            "secondItemText": "Please call your carrier to request an account transfer PIN. This one-time use PIN is needed to authorize your carrier to release your phone number. (Note: this is NOT the password used to log into your account )."
+        },
+        "nextStep": "Next Step",
+        "phoneForm": {
+            "firstNameLabel": "Your name ( as it appears in your phone bill )",
+            "firstNamePlaceholder": "First name",
+            "lastNameLabel": "Last Name",
+            "lastNamePlaceholder": "Last name",
+            "billingAddressLabel": "Billing address",
+            "billingAddressPlaceholder": "Address",
+            "billingAddress2Label": "Billing address 2",
+            "billingAddress2Placeholder": "Address",
+            "cityLabel": "City",
+            "cityPlaceholder": "City",
+            "stateLabel": "State",
+            "statePlaceholder": "State",
+            "zipCodeLabel": "Zip Code",
+            "zipCodePlaceholder": "Zip",
+            "accountNumberLabel": "Account number",
+            "accountNumberPlaceholder": "e.g. 02323343534",
+            "accountTransferPINLabel": "Account transfer PIN",
+            "accountTransferPINPlaceholder": "e.g. 1234",
+            "noteBold": "Note: ",
+            "noteText": "This is NOT the password you use to login their website. If you are unsure if you have this, please contact your carrier."
+        },
+        "back": "Back",
+        "continue": "Continue",
+        "needHelp": "Need help?",
+        "callUs": "Call us: ",
+        "callUsPhoneNumber": "(866) 763-5111",
+        "sideMenu": {
+            "item1": {
+                "title": "You are protected",
+                "text": "Your personal information is encrypted by verisign"
+            }
+        }
+    },
+    "review_phone": {
+        "title": "Review your phone number transfer",
+        "carrier": "Your carrier",
+        "name": "Your Name",
+        "billing": "Billing address",
+        "accountNumber": "Account Number",
+        "accountTransferPIN": "Account transfer PIN",
+        "editInformation": "Edit Information",
+        "submit": "Submit"
+    },
+    "footer": {
+        "phone": "1.800.650.6471",
+        "rights": "Lively. All Rights Reserved",
+        "terms_of_use": "Terms of use",
+        "privacy_policy": "Privacy Policy",
+        "customer_agreement": "Customer Agreement",
+        "return_policy": "Return Policy",
+        "warranty": "Warranty",
+        "urgent_care_terms": "Urgent Care Terms & Conditions",
+        "lively_wearable_terms": "Lively Wearable Terms & Conditions",
+        "do_not_sell": "Do Not Sell My Personal Information",
+        "california_privacy_rights": "California Privacy Rights"
+    },
+    "header": {
+        "need_help": "Need Help? (800) 733-6632"
+    }
+}

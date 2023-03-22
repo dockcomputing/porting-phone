@@ -1,0 +1,97 @@
+.form-input {
+    outline: none;
+    border-radius: 5px;
+    height: 30p;
+    line-height: 30px;
+    border: 1px solid #8080804d;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.form-labels {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1f36
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.form-note {
+    margin-top: 20px;
+    background: #80808036;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+}
+
+.form-note h4 {
+    margin: 0px;
+}
+
+.form-note-password-advice {
+    font-size: 14px;
+    text-align: center;
+}
+
+.form-submit-button {
+    border-radius: 5px;
+    color: white;
+    width: 50%;
+    height: 40px;
+    background-color: #3b94d9;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.page1-button {
+  background: #d3116a;
+}
+
+.page2-button {
+    background-color: #61d57c;
+}
+
+.title-div {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.input-error-message {
+    color: red;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.submit-disabled {
+    background: gray;
+    cursor: initial;
+
+}
+
+.form-error {
+    border: red 2px solid;
+    border-radius: 10px;
+    background: #e2bebe;
+    padding: 10px;
+}

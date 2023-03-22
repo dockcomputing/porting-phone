@@ -1,0 +1,284 @@
+.transfer-phone-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.transfer-phone-content {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    align-items: flex-start;
+    padding-left: 100px;
+    margin-bottom: 50px;
+}
+
+.transfer-phone-header {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 10px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+.transfer-phone-header-main-text {
+    font-weight: 800;
+    font-size: 24px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    padding-right: 150px;
+}
+.transfer-phone-header-main-divider {
+    width: 100%;
+    background: linear-gradient(90.01deg, #DE7B1C 0.01%, #EC551C 8.26%, #E60046 23.91%, #E60046 51.44%, #CE1578 99.99%);
+    height: 6px;
+}
+
+.transfer-phone-header-main-subtext {
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    padding-right: 150px;
+}
+
+.transfer-phone-side-content {
+    display: flex;
+    flex: 1
+}
+
+.transfer-phone-form-first div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.transfer-phone-form-first .t-phone-form-container {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.transfer-phone-form-first .t-phone-form-container-title {
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.transfer-phone-form-first .t-phone-form-container-content {
+    flex-direction: row;
+    gap: 20px;
+}
+
+.t-phone-form-container .transfer-phone-status-subsection {
+    flex-direction: row;
+    gap: 10px;
+}
+
+.t-phone-form-container .transfer-phone-status-subsection-item {
+    display:flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+
+.t-phone-form-disclaimer-container {
+    display: flex;
+    margin-top: 20px;
+    background: #F3F3F3;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.t-phone-form-disclaimer-container .t-title {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    padding-right: 150px;
+}
+
+.t-phone-form-disclaimer-container .t-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.t-phone-form-disclaimer-container .t-content-item {
+    gap: 3px;
+}
+
+
+.t-phone-form-disclaimer-container .t-content-item-title {
+    font-weight:600;
+}
+
+
+.t-phone-form-disclaimer-container .t-content-item-text {
+    padding-left: 40px;
+    text-align:left;
+    font-weight:500;
+    font-size: 14px;
+}
+
+.transfer-phone-form-actions {
+    margin-top: 30px;
+}
+
+.transfer-phone-form-second {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 30px;
+}
+
+.transfer-phone-form-row {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.transfer-phone-form-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+    gap: 4px;
+}
+
+.transfer-phone-form-item label {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.transfer-phone-form-input {
+    box-sizing: border-box;
+    border: 1px solid #222222;
+    padding: 8px 10px 7px;
+    border-radius: 2px;
+}
+.transfer-phone-form-second-inrow-disclaimer {
+    font-size: 13px;
+}
+
+.transfer-phone-form-button {
+    background: linear-gradient(10deg, #E60046, #D9328A);
+    padding: 9px 20px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+input[type='radio'] {
+    accent-color: #D9328A
+}
+
+.medium-gap {
+    gap: 3px !important;
+}
+
+.small-gap {
+    gap: 1px !important;
+}
+
+.mb-s {
+    margin-bottom: 15px;
+}
+
+.transfer-phone-side-c {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.transfer-phone-side-co {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+    width: 230px;
+    margin: 0 auto;
+}
+
+.side-menu-item-logo {
+    min-width: 60px;
+}
+
+.side-menu-item-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.side-menu-item-desc-title {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.side-menu-item-desc-text {
+    font-size: 13px;
+    color: #58595B
+}
+
+.is-eligible-disclaimer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background: #00930F;
+    color: white;
+    padding: 0px 10px;
+    max-width: 400px;
+    position: relative;
+
+}
+
+.is-eligible-content {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center !important;
+    padding: 20px 10px;
+}
+
+.is-eligible-content-icon {
+    display: flex;
+    padding: 10px;
+    padding-right: 20px;
+}
+
+.is-eligible-content-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.is-eligible-content-text-title {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.is-eligible-content-text-sub {
+    font-size: 14px;
+}
+
+.button-disabled {
+    background: rgb(190, 190, 190) !important;
+}
+
+.button-secondary {
+    color: black;
+    background: white;
+    border: 2px solid black;
+}
+
+.transfer-phone-form-action-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

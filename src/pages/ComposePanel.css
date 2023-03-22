@@ -1,0 +1,13 @@
+.new-tweet-container {
+    display: flex;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 20px;
+}
+
+#is-porting {
+    font-style: italic
+}

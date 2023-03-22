@@ -1,0 +1,82 @@
+.setup-line-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.setup-line-header {
+    display: flex;
+    background: url(/src/assets/backgrounds/svg/background.svg);
+    height: 180px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.setup-line-header .setup-line-header-main-text {
+    margin-left: 100px;
+    font-size: 34px;
+    font-weight: bold;
+    width: 250px;
+    text-align: start;
+    color: white;
+}
+
+.setup-line-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.setup-line-content .setup-line-status-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.setup-line-content .setup-line-status-title {
+    font-size: 24px;
+}
+
+.setup-line-content .setup-line-status-subtitle {
+    font-size: 34px;
+}
+
+
+.setup-line-content .setup-line-video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 110px;
+}
+
+.setup-line-video-container {
+    width: 85%;
+    height: 600px;
+}
+
+.setup-line-content .setup-line-video {
+    width: 70%;
+    height: 500px;
+    background: gray;
+}
+
+.setup-line-content .setup-line-continue-button {
+    margin-top: 20px;
+    background: #d3116a;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.setup-line-content .setup-line-continue-button.disabled {
+    background: pink;
+    cursor: initial;
+}

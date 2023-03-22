@@ -1,0 +1,119 @@
+.activation-line-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-items: center;
+}
+
+.activation-line-header {
+    display: flex;
+    background: url(/src/assets/backgrounds/svg/background.svg);
+    height: 180px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.activation-line-header .activation-line-header-main-text {
+    margin-left: 100px;
+    font-size: 34px;
+    font-weight: bold;
+    width: 400px;
+    text-align: start;
+    color: white;
+}
+
+.activation-line-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.activation-line-content .activation-line-status-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    padding-right: 350px;
+    padding-left: 350px;
+    gap: 10px;
+}
+
+.activation-line-content .activation-line-tools-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    padding-right: 100px;
+    padding-left: 100px;
+    gap: 10px;
+}
+
+.activation-line-tools-container .activation-line-title {
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-bottom: 50px;
+}
+
+.activation-line-status-container .activation-line-title {
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.activation-line-status-container .activation-line-status-subtitle {
+    font-size: 24px;
+}
+
+
+.activation-line-content .activation-line-video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    padding-bottom: 110px;
+}
+
+.activation-line-video-container {
+    width: 85%;
+    height: 600px;
+}
+
+.activation-line-content .activation-text {
+    margin-top: 40px;
+}
+.activation-line-content .activation-line-video {
+    width: 70%;
+    height: 500px;
+    background: gray;
+}
+
+.activation-line-content .activation-line-continue-button {
+    margin-top: 20px;
+    background: #d3116a;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.activation-line-content .activation-line-continue-button.disabled {
+    background: pink;
+    cursor: initial;
+}
+
+.activation-divider {
+    border-top: 1px solid #c7c7c7;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.activation-cards-container {
+    display: flex;
+    gap: 50px;
+}
